@@ -33,10 +33,16 @@ button:hover {
 .task {
   border: 2px solid #cdcdcd;
   padding: 1rem;
+  --dark: #011c37;
+    --light: #dedede;
 }
 
 #task1 > #text-content {
   height: 3rem;
   width: 100%;
   border: 1px solid #999;
+}
+
+.bg {
+  background-color:bisque;
 }
